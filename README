@@ -1,0 +1,28 @@
+This program can be used to check instacart store availability. Software will notify you by playing different sounds as below.
+
+Slot available -> Available-sound.wav
+Slot available -> NotAvailable-sound.wav
+
+Above sound clips are in the project files.
+Please play them and get familiar so that you know what sound to expect when slot is available.
+
+#System requirement
+Java JRE 1.8 (Java 8)
+Google Chrome version: 81.0.*
+
+# Instruction to RUN
+- unzip the file project file in any folder you want
+- After unzip the project folder will contains app.properties, two sound files, one project jar and lib directory
+- Set username, password and other parameters in app.properties file
+- Open the terminal/command prompt and change path to the folder in which project jar is present
+- Run application by executing below command
+java -jar <applicationjar>
+
+e.g. java -jar insta-1.0-SNAPSHOT.jar
+
+Note: check java version by using below command. It should be at least Java 8
+java -version
+
+======= For developers ============
+Available Chrome drivers:
+https://chromedriver.storage.googleapis.com/index.html
